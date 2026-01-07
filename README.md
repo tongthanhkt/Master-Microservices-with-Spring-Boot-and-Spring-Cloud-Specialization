@@ -13,3 +13,10 @@ feat(SPB): Course 1 Module 3 Step 06 Step 06 - Designing the REST API for Social
 feat(SPB): Course 1 Module 3 Step 07 - Creating User Bean and UserDaoService
 feat(SPB): Course 1 Module 3 Step 08 - Implementing GET Methods for User Resource
 feat(SPB): Course 1 Module 3 Step 09 - Implementing POST Method to create User Resource
+feat(SPB): Course 1 Module 3 Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location
+feat(SPB): Course 1 Module 3 Step 11 - Implementing Exception Handling - 404 Resource Not Found
+feat(SPB): Course 1 Module 3
+feat(SPB): Course 1 Module 3
+feat(SPB): Course 1 Module 3
+feat(SPB): Course 1 Module 3
+feat(SPB): Course 1 Module 3
