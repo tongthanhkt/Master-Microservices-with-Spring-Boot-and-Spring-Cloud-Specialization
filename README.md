@@ -10,3 +10,4 @@ feat(SPB): Course 1 Module 3 Step 05 - Enhancing the Hello World REST API with a
     DELETE /users/{id}	@DeleteMapping("/users/{id}")
     GET /users/{id}/posts	@GetMapping("/users/{id}/posts")
 feat(SPB): Course 1 Module 3 Step 06 Step 06 - Designing the REST API for Social Media Application
+feat(SPB): Course 1 Module 3 Step 07 - Creating User Bean and UserDaoService
