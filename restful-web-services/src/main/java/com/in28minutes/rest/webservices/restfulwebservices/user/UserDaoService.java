@@ -8,12 +8,25 @@ import java.util.List;
 @Component
 public class UserDaoService {
     private static List<User> users = new ArrayList<>();
+    private static int userCount = 0;
     static {
-        users.add(new User(1, "Tong Thanh"));
-        users.add(new User(2, "Dieu Linh"));
+        users.add(new User(++userCount, "Tong Thanh"));
+        users.add(new User(++userCount, "Dieu Linh"));
 
     }
     public List<User> findAll(){
         return users;
+    }
+
+    public User save(User user){
+        user.setId(++userCount);
+        users.add(user);
+        return user;
+    }
+
+    public User findOne(Integer id){
+        return users.stream()
+                .filter(user -> user.getId().equals(id))
+                .findFirst().orElse(null);
     }
 }
