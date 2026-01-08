@@ -15,7 +15,7 @@ feat(SPB): Course 1 Module 3 Step 08 - Implementing GET Methods for User Resourc
 feat(SPB): Course 1 Module 3 Step 09 - Implementing POST Method to create User Resource
 feat(SPB): Course 1 Module 3 Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location
 feat(SPB): Course 1 Module 3 Step 11 - Implementing Exception Handling - 404 Resource Not Found
-feat(SPB): Course 1 Module 3
+feat(SPB): Course 1 Module 3 Step 12 - Implementing Generic Exception Handling for all Resources
 feat(SPB): Course 1 Module 3
 feat(SPB): Course 1 Module 3
 feat(SPB): Course 1 Module 3
