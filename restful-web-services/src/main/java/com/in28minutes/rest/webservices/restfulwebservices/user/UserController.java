@@ -10,8 +10,8 @@ import java.util.List;
 
 @RestController
 public class UserController {
-    private UserDaoService service;
-    public UserController(UserDaoService service) {
+    private UserService service;
+    public UserController(UserService service) {
         this.service = service;
     }
     @PostMapping("/users")
@@ -35,5 +35,10 @@ public class UserController {
             throw new UserNotFoundException("id" + id);
         }
         return user;
+    }
+
+    @DeleteMapping("/users/${id}")
+    public void deleteUser(@PathVariable Integer id){
+        service.deleteById(id);
     }
 }

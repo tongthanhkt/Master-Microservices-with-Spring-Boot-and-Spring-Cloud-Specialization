@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class UserDaoService {
+public class UserService {
     private static List<User> users = new ArrayList<>();
     private static int userCount = 0;
     static {
@@ -28,5 +28,10 @@ public class UserDaoService {
         return users.stream()
                 .filter(user -> user.getId().equals(id))
                 .findFirst().orElse(null);
+    }
+
+    public User deleteById(Integer id){
+        boolean removed =  users.removeIf(user -> user.getId() == id);
+        if(!removed) throw new UserNotFoundException("Id: " + id + " not found");
     }
 }
